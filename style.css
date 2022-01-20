@@ -1,0 +1,140 @@
+/* IMPOSTAZIONI BASE */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* // IMPOSTAZIONI BASE // */
+
+/* SFONDO DELLA PAGINA */
+body {
+  background-image: url('img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+ /* // SFONDO DELLA PAGINA // */
+
+/* CORPO DELLA PAGINA */
+.contenuto-totale {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.container-principale {
+  width: 1200px;
+  height: 750px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 2%;
+}
+
+.container-principale img {
+  max-width: 200px;
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.titolo h1 {
+  text-align: center;
+  color: #08dc04;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+/* // CORPO DELLA PAGINA // */
+
+/* BARRA DEI MENU */
+#menu {
+  width: 1000px;
+  height: 40px;
+  background-color: #08dc04;
+  display: inline-block;
+  margin:0px auto;
+  position: relative;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.style-button{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* // BARRA DEI MENU // */
+
+
+/* MONOPATTINI */
+.monopattino-blocco {
+  margin-top: 2%;
+  text-align: left;
+  color: white;
+}
+
+.first-part > span {
+  font-family: verdana;
+  font-weight: bold;
+  line-height: 2;
+  font-size: 20px;
+}
+
+.second-part > span {
+  font-family: verdana;
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+.second-part {
+  position: relative;
+}
+
+.testo-carica {
+  display: block;
+}
+
+/* RETTANGOLI DI RICARICA MONOPATTINI */
+.rettangolo-carica-1 {
+  width: 320px;
+  height: 30px;
+  background-color: #f5b453;
+  border-radius: 3%;
+  position: absolute;
+  top: 100%;
+  margin-top: 5px;
+}
+
+.rettangolo-carica-2 {
+  width: 600px;
+  height: 30px;
+  background-color: #1ec31e;
+  border-radius: 5%;
+  position: absolute;
+  top: 100%;
+  margin-top: 5px;
+}
+
+.rettangolo-carica-3 {
+  width: 150px;
+  height: 30px;
+  background-color: #be4141;
+  border-radius: 5%;
+  position: absolute;
+  top: 100%;
+  margin-top: 5px;
+}
+/* // RETTANGOLI DI RICARICA MONOPATTINI // */
+
+/* MARGINE BLOCCHI MONOPATTINI 2/3 */
+.margine {
+  margin-top: 6%;
+}
+/* // MARGINE BLOCCHI MONOPATTINI  // */
